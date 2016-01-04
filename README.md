@@ -2,7 +2,7 @@
 
 # Basics
 
-Pogo is a small set of tools which provides a way to generate 2d projections of directed graphs using spring energy model. It was build orginally to graph user relations scraped from Tumblr but can be used with any directed graph.
+Pogo is a small set of tools which provides a way to generate 2d projections of directed graphs using a spring energy model. It was build orginally to graph user relations scraped from Tumblr but can be used with any directed graph.
 Pogo contains three main tools:
  - `spring_model.py` is the main tool in Pogo. It takes a directed graph in the form of a text file and transforms it into a .json file which contains the x,y coordinates for each node in the graph
  - `render_graph.py` is a quick scipt which turns the .json output of spring_model.py into an .svg file
